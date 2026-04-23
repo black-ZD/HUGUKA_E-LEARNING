@@ -1,5 +1,4 @@
 
-import './App.css';
 import Home from './Components/Home';
 import Modules from './Components/Module';
 import AboutUs from './Components/AbouUs';
