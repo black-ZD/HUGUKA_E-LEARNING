@@ -1,22 +1,21 @@
-const colors = require("tailwindcss/colors");
-
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}","./public/index.html"],
-  darkMode: false, 
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+
+  darkMode: "class",
+
   theme: {
     extend: {
-       boxShadow: {
-                    'brand': '0 5px 7px 8px rgb(15, 59, 35)', // Your custom shadow
-            },
+      boxShadow: {
+        brand: "0 5px 20px rgba(0, 64, 0, 0.35)",
+      },
+
       colors: {
-       
-        'huguka-green': '#004000',
-        'huguka-light': '#008000',
+        "huguka-green": "#006400",
+        "huguka-light": "#22C55E",
+        "huguka-dark": "#003300"
       },
     },
   },
-  variants: {
-    extend: {},
-  },
+
   plugins: [],
-}
+};
