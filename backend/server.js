@@ -3,7 +3,7 @@ import cors from "cors";
 import db from "./db.js";
 
 const app = express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 
 app.use(express.json());
@@ -173,6 +173,6 @@ app.delete('/module/:id', async (req, res) => {
 });
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
