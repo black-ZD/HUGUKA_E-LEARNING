@@ -47,7 +47,7 @@ export default function CreatModules() {
     <>
       <NavBar />
 
-      <div className="border-t-8 border-black flex flex-col items-center text-white min-w-full justify-center shadow-2xl bg-orange-900 rounded">
+      <div className="border-t-8 border-black flex flex-col items-center text-white min-w-full justify-center shadow-2xl bg-white rounded">
         <h1 className="text-3xl font-extrabold text-center text-black">
           create module
         </h1>
